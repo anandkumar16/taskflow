@@ -51,22 +51,22 @@ A modern, scalable web application with authentication, protected dashboard, and
 
 ## Environment Variables
 
-\`\`\`env
+```env
 DATABASE_URL=your_neon_database_url
 JWT_SECRET=your_jwt_secret_key
-\`\`\`
+```
 
 ## Getting Started
 
 1. **Install dependencies**
-   \`\`\`bash
+   ```
    npm install
-   \`\`\`
+   ```
 
 2. **Start development server**
-   \`\`\`bash
+ ```
    npm run dev
-   \`\`\`
+ ```
 
 3. **Open browser**
    Navigate to `http://localhost:3000`
