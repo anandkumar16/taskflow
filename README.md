@@ -81,3 +81,16 @@ JWT_SECRET=your_jwt_secret_key
 - Protected routes requiring authentication
 
 
+## Deployment
+
+### Vercel (Frontend + Backend)
+1. Connect your GitHub repository to Vercel
+2. Add environment variables in Vercel dashboard
+3. Deploy
+
+## Scaling Considerations
+
+- **Database**: Use connection pooling, consider read replicas
+- **Caching**: Implement Redis for session/data caching
+- **CDN**: Static assets served via Vercel Edge
+- **API**: Rate limiting recommended for production
