@@ -1,9 +1,0 @@
-{
-  "/api/auth/signup/route": "app/api/auth/signup/route.js",
-  "/api/tasks/route": "app/api/tasks/route.js",
-  "/api/user/me/route": "app/api/user/me/route.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/dashboard/profile/page": "app/dashboard/profile/page.js",
-  "/dashboard/tasks/page": "app/dashboard/tasks/page.js",
-  "/signup/page": "app/signup/page.js"
-}
